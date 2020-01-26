@@ -18,11 +18,11 @@ La base de dato es sql server
 	Fecha Datetime,
 	AutorID int
     )
-   GO
+    GO
     Create Table Autor(
 	AutorID int primary key identity(1,1),
 	Nombre Varchar(100),
 	Apellido Varchar(100)
-  )
+   )
 
 
